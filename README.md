@@ -1,7 +1,7 @@
 # Boston Neighborhood Reverse Geocoder
 [![Latest Stable Version](https://poser.pugx.org/daveross/boston-neighborhood-reverse-geocoder/v/stable)](https://packagist.org/packages/daveross/boston-neighborhood-reverse-geocoder) [![License](https://poser.pugx.org/daveross/boston-neighborhood-reverse-geocoder/license)](https://packagist.org/packages/daveross/boston-neighborhood-reverse-geocoder) [![Build Status](https://travis-ci.org/daveross/boston-neighborhood-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/boston-neighborhood-reverse-geocoder)
 
-Determine which Boston neighborhood a lat/long point falls in, and does it wicked fast without calling out to an external API.
+Determines which Boston neighborhood a lat/long point falls in, and does it wicked fast without calling out to an external API.
 
 ## Installing
 
