@@ -1,4 +1,4 @@
-# Boston Neighborhood Locator [![Build Status](https://travis-ci.org/daveross/boston-neighborhood-locator.svg?branch=master)](https://travis-ci.org/daveross/boston-neighborhood-locator)
+# Boston Neighborhood Locator [![Build Status](https://travis-ci.org/daveross/boston-neighborhood-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/boston-neighborhood-reverse-geocoder)
 
 Determine which Boston neighborhood a lat/long point falls in, and does it wicked fast without calling out to an external API.
 
