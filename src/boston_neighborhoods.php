@@ -1,6 +1,6 @@
 <?php
 
-namespace com\davidmichaelross\boston_neighborhoods;
+namespace DaveRoss\BostonNeighborhoodReverseGeocoder;
 
 // Data from http://bostonneighborhoodmap.com
 // http://www.google.co.uk/maps/ms?ie=UTF8&hl=en&vps=1&jsv=280a&msa=0&output=kml&msid=111982592007266930035.00046456be3e3e9a4aa1b
@@ -159,18 +159,18 @@ function pointInPolygon( $targetX, $targetY, $points_string ) {
 /**
  * Get the neighborhood name for a pair of lat/long coordinates
  *
- * @param double $targetX
- * @param double $targetY
+ * @param double $longitude decimal longitude
+ * @param double $latitude decimal latitude
  *
  * @return string
  */
-function get_neighborhood( $targetX, $targetY ) {
+function get_neighborhood( $longitude, $latitude ) {
 
 	$neighborhoods = neighborhoods_array();
 
 	foreach ( $neighborhoods as $neighborhood ) {
 		list( $neighborhood_name, $neighborhood_boundary ) = $neighborhood;
-		if ( pointInPolygon( $targetX, $targetY, $neighborhood_boundary ) ) {
+		if ( pointInPolygon( $longitude, $latitude, $neighborhood_boundary ) ) {
 			return $neighborhood_name;
 		}
 	}

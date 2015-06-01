@@ -1,0 +1,20 @@
+{
+  "name": "daveross/boston-neighborhood-reverse-geocoder",
+  "description": "Determine which Boston neighborhood a lat/long point falls in",
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7.10"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Ross",
+      "email": "dave@davidmichaelross.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/boston_neighborhoods.php"]
+  }
+}

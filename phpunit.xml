@@ -1,0 +1,7 @@
+<phpunit bootstrap="src/boston_neighborhoods.php">
+	<testsuites>
+		<testsuite name="all">
+			<directory>tests/php</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
