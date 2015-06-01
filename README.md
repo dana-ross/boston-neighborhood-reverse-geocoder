@@ -1,5 +1,6 @@
-# Boston Neighborhood Locator
-Determine which Boston neighborhood a lat/long point falls in
+# Boston Neighborhood Locator [![Build Status](https://travis-ci.org/daveross/boston-neighborhood-locator.svg?branch=master)](https://travis-ci.org/daveross/boston-neighborhood-locator)
+
+Determine which Boston neighborhood a lat/long point falls in, and does it wicked fast without calling out to an external API.
 
 ## License
 
@@ -15,5 +16,6 @@ echo 'Massachusetts General Hospital is in ' . \DaveRoss\BostonNeighborhoodRever
 echo 'Faneuil Hall is in ' . \DaveRoss\BostonNeighborhoodReverseGeocoder\get_neighborhood( -71.0568, 42.3600 ) . "\n";
 ```
 
-### Thanks
+## Thanks
+
 Data from [Boston Neighborhood Map](http://bostonneighborhoodmap.com/) by [Cosmo Catalano](http://cosmocatalano.com/)
