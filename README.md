@@ -28,7 +28,7 @@ Copy this library's files to wherever you put third-party libraries in your appl
 
 [MIT](http://daveross.mit-license.org/)
 
-See [why I contribute to open source software](https://davidmichaelross.com/blog/contribute-open-source-software/).
+See [why I contribute to open source software](https://medium.com/@csixty4/why-i-write-open-source-software-6d3569c85e64).
 
 ## Examples
 
